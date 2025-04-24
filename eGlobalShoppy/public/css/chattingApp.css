@@ -1,0 +1,33 @@
+.chatContainer{
+    border: 2px solid orange; 
+    width: 380px;
+    height: 450px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btnBlock input {
+    height: 70px;
+}
+
+input[type=text] {
+    width: 300px;
+}
+
+.msgBlock {
+    height: 340px;
+}
+
+.sendMsg {
+    font-weight: bold;
+    color: blue;
+    margin: 5px;
+}
+
+.receiveMsg {
+    text-align: right;
+    font-weight: bold;
+    color: green;
+    margin: 5px;
+}

@@ -1,0 +1,92 @@
+Looping 
+    for 
+    while 
+    do while 
+    for in 
+    for each 
+    for of -> iterate set and map 
+
+Set - similar to Arrays
+    var s1 = new Set();
+
+
+Map  is similar to Object
+
+    var m1 = new Map();
+
+    -------------------
+
+importing and exporting js code 
+
+    Import external js code/file to another js code 
+
+    import 
+
+1. any js code, which is using import keyworkd has to be loaded as a module not as type jscode .
+
+2. import should be at the top of the code, we cannot import in middle of js code 
+
+------------
+
+Steps:
+
+    1. inorder to import an external js file to another js file, it has to be a module. 
+        <script type="module" src="app.js"> 
+
+    2. "export" is the predefined keyword using which any js resource (varaible, obj, func etc) can be exported which can be imported in other js File
+
+            export var a = 90;
+            export class ABC {
+
+            }
+            export sample = () => {
+                
+            }
+    3. export default can only be used once within the module, 
+
+            export default name = "raj";
+
+            import name from ...js 
+
+------------------------------
+
+JS Promises:
+
+
+    "Promise"
+
+    var mypromise = new Promise((resolve, rejected) =>{
+        ...
+        resolve();
+
+        rejected();
+    });
+
+---------------------
+
+Session -> time between login to logout 
+
+    express-session 
+
+-------------------
+
+Jan - 20
+Socket io programming 
+    Continues steaming of data between  the server and client,
+
+    Publishing and Subscribing
+
+        "Socket io" module 
+
+            Server module 
+
+            client side module
+
+---------------
+
+Pending 
+    JWT
+    Clustering 
+------------------------
+
+css 

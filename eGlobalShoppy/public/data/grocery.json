@@ -1,0 +1,178 @@
+ [
+    {
+      "id": 1,
+      "name": "Organic Bananas",
+      "title": "Organic Bananas",
+      "category": "grocery", "price": 1.29,
+      "image": "images/grocery/grocery1_1.jpg",
+      "description": "Fresh organic bananas rich in potassium, perfect for a healthy snack.",
+      "discount": "10%",
+      "rating": 4.6,
+      "images": [
+        "images/grocery/grocery1_1.jpg",
+        "images/grocery/grocery1_2.jpg",
+        "images/grocery/grocery1_3.jpg"
+      ],
+      "features": [
+        "Rich in potassium",
+        "Organic",
+        "Excellent source of vitamin B6",
+        "Naturally sweet"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Emma Wilson",
+          "rating": 5,
+          "comment": "Very fresh and tasty!"
+        },
+        {
+          "id": 2,
+          "name": "Oliver Smith",
+          "rating": 4,
+          "comment": "Good quality but slightly overpriced."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "So Good Almond Milk",
+      "title": "So Good Unsweetened Almond Milk",
+      "category": "grocery", "price": 2.99,
+      "image": "images/grocery/grocery2_1.jpg",
+      "description": "Creamy unsweetened almond milk perfect for cereals and smoothies.",
+      "discount": "15%",
+      "rating": 4.7,
+      "images": [
+        "images/grocery/grocery2_1.jpg",
+        "images/grocery/grocery2_2.jpg",
+        "images/grocery/grocery2_3.jpg"
+      ],
+      "features": [
+        "Low in calories",
+        "Dairy-free",
+        "No added sugar",
+        "Rich in vitamin E"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Sophia Johnson",
+          "rating": 5,
+          "comment": "Great alternative to regular milk!"
+        },
+        {
+          "id": 2,
+          "name": "Liam Brown",
+          "rating": 4,
+          "comment": "Nice and smooth, but could use a bit more flavor."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Daawat Brown Rice",
+      "title": "Daawat Organic Brown Rice",
+      "category": "grocery", "price": 6.49,
+      "image": "images/grocery/grocery3_1.jpg",
+      "description": "Healthy and versatile organic brown rice, perfect for a balanced diet.",
+      "discount": "5%",
+      "rating": 4.5,
+      "images": [
+        "images/grocery/grocery3_1.jpg",
+        "images/grocery/grocery3_2.jpg",
+        "images/grocery/grocery3_3.jpg"
+      ],
+      "features": [
+        "Whole grain",
+        "High in fiber",
+        "Gluten-free",
+        "Certified organic"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "James Williams",
+          "rating": 4,
+          "comment": "Takes a bit long to cook, but worth it!"
+        },
+        {
+          "id": 2,
+          "name": "Ella Martinez",
+          "rating": 5,
+          "comment": "Love it! Perfect for meal prep."
+        }
+      ]
+    },
+    {
+        "id": 4,
+        "name": "Organic Avocados",
+        "title": "Organic Hass Avocados",
+        "category": "grocery", "price": 1.99,
+        "image": "images/grocery/grocery4_1.jpg",
+        "description": "Fresh organic Hass avocados, rich in healthy fats and essential nutrients.",
+        "discount": "10%",
+        "rating": 4.8,
+        "images": [
+            "images/grocery/grocery4_1.jpg",
+            "images/grocery/grocery4_2.jpg",
+            "images/grocery/grocery4_3.jpg"
+        ],
+        "features": [
+            "Rich in healthy fats",
+            "High in fiber",
+            "Excellent source of potassium",
+            "Creamy and delicious"
+        ],
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Mia Davis",
+            "rating": 5,
+            "comment": "Perfectly ripe and delicious!"
+            },
+            {
+            "id": 2,
+            "name": "William Garcia",
+            "rating": 4,
+            "comment": "Great quality, but a bit expensive."
+            }
+        ]
+        },
+        {
+        "id": 5,
+        "name": "Organic Strawberries",
+        "title": "Organic Strawberries",
+        "category": "grocery", "price": 3.99,
+        "image": "images/grocery/grocery5_1.jpg",
+        "description": "Fresh organic strawberries, packed with antioxidants and vitamins.",
+        "discount": "20%",
+        "rating": 4.7,
+        "images": [
+            "images/grocery/grocery5_1.jpg",
+            "images/grocery/grocery5_2.jpg",
+            "images/grocery/grocery5_3.jpg"
+        ],
+        "features": [
+            "High in vitamin C",
+            "Antioxidant-rich",
+            "Sweet and juicy",
+            "Certified organic"
+        ],
+        "reviews": [
+            {
+            "id": 1,
+            "name": "Aiden Rodriguez",
+            "rating": 5,
+            "comment": "Delicious and fresh!"
+            },
+            {
+            "id": 2,
+            "name": "Sofia Martinez",
+            "rating": 4,
+            "comment": "Great quality, but a bit pricey."
+            }
+        ]
+    }
+  ]
+

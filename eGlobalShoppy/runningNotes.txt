@@ -1,0 +1,84 @@
+Dec 27:
+    Webserver:
+        1. Host the resources
+        2. Creating webservices - through which client/user can communicate with Server
+
+-----------
+
+Dec 28:
+
+
+Jan - 06
+    Postman - A tool to test apis's
+
+Jan 07
+
+    Banking proj 
+
+        15 apiss/ webservices 
+
+            4 diff env 
+                Dev 
+                    http://devserv.abc.com/get/insurencedetails
+                Sit 
+                    http:/sitserv.abc.com/get/insurencedetails
+                Uat 
+                    http://uatserv.abc.com/get/insurencedetails
+                Prod 
+                    http:/abc.com/get/insurencedetails
+                BCP
+                    http://bcpserv.abc.com/get/insurencedetails
+
+location 
+
+Step 1: hit server with prodct image -> uplod -> return  imge url 
+
+    Sub step 1: send data/file through fomdata from client side 
+    sub step 2: Receive file at serverside and copy/upload to specific folder 
+                under public folder - using multer node module
+Step 2: Upload product details along with image url to server -> service
+
+
+At server side to upload a file , we use multer nodemodule 
+
+    var multer = require("multer");
+
+    var storage = multer.diskStorage({
+        destination: '',
+        filename: ''
+    })
+
+    var upload = multer.storage(storage).single("prodImage")
+
+    upload(req, res, () => {
+        
+    })
+
+---------------
+
+Clustering:
+    Faculty - Prasad
+        50 students
+
+        1student 5min of 1-1 time 
+
+        total - 250min
+    ----------------------------
+
+    5 diff Faculty - F1, 
+        50 students
+
+        50 min of time 
+    ------------------------
+
+    5 diff Prasad's virtually
+
+    Authoraziation and authentication
+    ----------------------
+
+    node module - 'dotenv' 
+
+    jsontoken
+
+    SMTP 
+        

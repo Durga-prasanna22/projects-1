@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="lib/jquery.js"></script>
+        <script src="lib/handlebars.min.js"></script>
+        <!-- <link rel="stylesheet" href="./css/header.css" /> -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.min.js"></script>
+        <script src="lib/handlebar.js"></script>
+        <link rel="stylesheet" href="css/chattingApp.css">
+        <script src="javascript/chattingApp.js"></script>
+    </head>
+   <body>
+        <div class="chatContainer">
+            <div class="msgBlock"></div>
+            <hr>
+            <div class="btnBlock">
+                <input type="text" id="userMsg">
+                <input type="button" value="Send" class="btn btn-primary" onclick="sendMsg()">
+            </div>
+        </div>
+   </body>
+</html>

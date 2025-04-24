@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/handlebars.min.js"></script>
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- <link rel="stylesheet" href="./css/header.css" /> -->
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/dialogueBox.css" />
+    <link rel="stylesheet" href="css/productDisplay.css" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/axios.js"></script>
+    <script src="javascript/productsLoad.js"></script>
+    <script src="lib/handlebar.js"></script>
+    <script src="javascript/login.js"></script>
+    <script src="javascript/slider.js"></script>
+    <link rel="stylesheet" href="./css/header.css" />
+    <script src="javascript/captcha.js"></script>
+    <script src="javascript/onload.js"></script>
+    <link rel="stylesheet" href="./css/dialogueBox.css" />
+    <script src="javascript/newUserSignup_details.js"></script>
+    <script src="javascript/productsLoad.js"></script>
+    <script src="javascript/productDisplay.js"></script>
+    <script src="javascript/viewProdcutDetails.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+      
+    <div class="container ">
+           <div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary  navbar-shadow">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+
+         
+         <div onclick="loadSelectedPage('onload')">
+           <a class="navbar-brand" href="#">
+            <img src="./images/logo-1.png" alt="Logo" width="90" height="50"
+              class="d-inline-block align-text-top main-logo" />
+          </a>
+         </div>
+
+          
+          <div class="d-flex justify-content-center flex-grow-1">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 search-bar" type="search" placeholder="Search for items"
+                aria-label="Search">
+              <button class="btn btn-outline-success btn-search" type="submit">Search</button>
+            </form>
+          </div>
+
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+         
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="d-flex ms-auto">
+
+             
+              <div class="me-5" id="logoutBlock" onclick="logOutUser()">
+                <a href="#" class="d-flex align-items-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                  <img src="./images/profile.jpg" alt="User Icon" width="25" height="25"
+                    class="me-1 login">
+                  <span class="login-text">Logout</span>
+                </a>
+              </div>
+              <div class="me-5" id="loginBlock">
+                <a href="#" class="d-flex align-items-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#loginModal">
+                  <img src="./images/profile.jpg" alt="User Icon" width="25" height="25"
+                    class="me-1 login">
+                    <button class="login-text"
+                                            type="button"
+                                            class="btn btn-primary"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#loginModal"
+                                         style="border: none;background-color:white;color: blueviolet;" >
+                                            Login
+                                          </button>
+                  <!-- <span class="login-text">Login</span> -->
+                </a>
+              </div>
+
+            
+              <div class="me-5">
+                <a href="#" class="d-flex align-items-center text-decoration-none">
+                    <img src="./images/cart.png" alt="Help Icon" width="25" height="25" class="me-1 help">
+                   <span class="cart-text" style="color: blueviolet;" onclick="loadSelectedPage('viewCart')">Cart</span>
+                </a>
+              </div>
+
+            
+              <div class="me-5" >
+                <a href="#" class="d-flex align-items-center text-decoration-none" style="cursor: pointer;">
+                  <img src="./images/favorite icon.png" alt="Help Icon" width="20" height="16" class="me-1 help">
+                  <span class="watchlist-text" style="color: blueviolet;">watchlist</span>
+                </a>
+              </div>
+
+             
+            </div>
+          </div>
+      </nav>
+  
+           </div>
+      <div id="sliderId"  > </div>     
+      <main>
+
+      </main>
+      <footer>
+        <div class="footer-section">
+          <h4>Get to Know Us</h4>
+          <ul>
+            <li><a href="#">About eGlobal Shoppy</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">eGlobal Science</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect with Us</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Make Money with Us</h4>
+          <ul>
+            <li><a href="#">Sell on eGlobal Shoppy</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+            <li><a href="#">eGlobal Pay on Merchants</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Let Us Help You</h4>
+          <ul>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Returns Centre</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 eGlobal Shoppy</p>
+          <div class="language-selection">
+            <label for="language">🌐 Language:</label>
+            <select id="language" onchange="updateLanguage()">
+              <option value="en">English</option>
+              <option value="hi">हिंदी (Hindi)</option>
+              <option value="ta">தமிழ் (Tamil)</option>
+              <option value="te">తెలుగు (Telugu)</option>
+              <option value="kn">ಕನ್ನಡ (Kannada)</option>
+              <option value="ml">മലയാളം (Malayalam)</option>
+              <option value="es">Español (Spanish)</option>
+              <option value="fr">Français (French)</option>
+            </select>
+            |
+            <label for="country">🇮🇳 Country:</label>
+            <select id="country" onchange="updateCountry()">
+              <option value="australia">Australia</option>
+              <option value="Belgium">Belgium(Belgique)</option>
+              <option value="Brazil">Brazil(Brasil)</option>
+              <option value="Canada">Canada</option>
+              <option value="China">China(中国)</option>
+              <option value="Egypt">Egypt(مصر)</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany(Deutschland)</option>
+              <option value="india">India</option>
+              <option value="Italy">Italy(Italian)</option>
+              <option value="Japan">Japan(日本)</option>
+              <option value="Mexico">Mexico(Mexico)</option>
+              <option value="Netherlands">Netherlands</option>
+              <option value="Poland">Poland</option>
+              <option value="Saudi Arabia">
+                Saudi Arabia(المملكة العربية السعودية)
+              </option>
+              <option value="Singapore">Singapore</option>
+              <option value="South Africa">South Africa</option>
+              <option value="Spain">Spain</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Turkey">Turkey</option>
+              <option value="United Arab Emirates">United Arab Emirates</option>
+              <option value="usa">United States</option>
+              <option value="uk">United Kingdom</option>
+            </select>
+          </div>
+        </div>
+      </footer>
+    
+
+      <!-- Modal Login -->
+      <div
+        class="modal fade"
+        id="loginModal"
+        tabindex="-1"
+        aria-labelledby="loginModelLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 modelTitle" id="loginModelLabel">Login</h1>
+              <div class="modalBoxCloseButton">
+                <button
+                  type="button"
+                  class="btn-close"
+                  id="modalBoxCloseBtn"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+            </div>
+            </div>
+            <div class="modal-body">
+              <ul id="dialogBoxUl">
+                <li>
+                  <input
+                    type="text"
+                    placeholder="Account ID"
+                    id="accountId"
+                    class="form-control"
+                  />
+                </li>
+                <li>
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    id="password"
+                    class="form-control"
+                  />
+                </li>
+                <!-- Captcha Container -->
+                <li>
+                  <div class="captcha-container">
+                    <input
+                      type="text"
+                      placeholder="Enter Captcha"
+                      id="Captcha"
+                      class="form-control"
+                    />
+                    <button
+                      type="button"
+                      class="refresh btn btn-secondary refresh-btn"
+                    >
+                      Refresh
+                    </button>
+                  </div>
+                  <div>
+                    <input type="button" value="Send OTP mail" onclick="sendMailWithOTP()">
+                  </div>
+                </li>
+                <li class="preview"></li>
+
+
+                <li><input type="checkbox" id="rememberMe" /> Remember Me</li>
+                <li>
+                  <p>
+                    <a class="link-opacity-100" id="dialogBoxAnchor" href="#" class="d-flex align-items-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#forgotModal">Forgot Password</a>
+                  </p>
+                </li>
+                <li class="invalidCredentials">
+                  Invalid Credentials, please try with Valid Credentials.
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <div>
+                <p>
+                  New User?
+                  <a class="dialogBoxSignUp" class="link-opacity-100" href="#" id="dialogBoxAnchor" class="d-flex align-items-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#signUpModal">SignUp here</a>
+                </p>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="readAccountDetails()"
+                >
+                  Login
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <!-- Modal forgot page -->
+    <div
+    class="modal fade"
+    id="forgotModal"
+    tabindex="-1"
+    aria-labelledby="ForgotModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 modelTitle" id="ForgotModalLabel">Enter Username</h1>
+          <div class="modalBoxCloseButton">
+            <button
+              type="button"
+              class="btn-close"
+              id="modalBoxCloseBtn"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+        </div>
+        </div>
+        <div class="modal-body">
+          <ul id="dialogBoxUl">
+            <li>
+              <input
+                type="text"
+                placeholder="Mail/Contact Number"
+                id="forgotAccountId"
+                class="form-control"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <div>
+            <p>
+              New User?
+              <a class="dialogBoxSignUp" class="link-opacity-100" href="#" id="dialogBoxAnchor" class="d-flex align-items-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#signUpModal">SignUp here</a>
+            </p>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-primary"
+            >
+              Get OTP
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+   </div>
+  </div>
+</div>
+
+<!-- SignUp Modal -->
+<div
+class="modal fade"
+id="signUpModal"
+tabindex="-1"
+aria-labelledby="SignUpModelLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5 modelTitle" id="SignUpModelLabel">SignUp</h1>
+      <div class="modalBoxCloseButton">
+        <button
+          type="button"
+          class="btn-close"
+          id="modalBoxCloseBtn"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+    </div>
+    </div>
+    <div class="modal-body">
+      <ul id="dialogBoxUl">
+        <li>
+          <input
+            type="text"
+            placeholder="Enter full Name"
+            class="form-control",
+            id="fullName"
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Account Id"
+            id="s_accountId"
+            class="form-control"
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Email ID"
+            class="form-control"
+            id="mailId"
+          />
+        </li>
+        <li>
+          <input
+            type="password"
+            placeholder="Create Password"
+            class="form-control",
+            id="s_password"
+          />
+        </li>
+        <li>
+          <input
+            type="password"
+            placeholder="Re Enter Password"
+            class="form-control",
+            id="s_rePassword"
+          />
+        </li>
+        <li>
+          <p class="signUpLoginP">
+            Already have an account?
+            <a class="dialogBoxSignUp" class="link-opacity-100" href="#" id="dialogBoxAnchor" class="d-flex align-items-center text-decoration-none" data-bs-toggle="modal" data-bs-target="#loginModal"
+              >Login</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="modal-footer">
+      <div id="success_signup">
+          Successfly got registered, please click login for next
+      </div>
+      <div>
+        <button type="button" class="btn btn-primary" onclick="readUserDetails()" >
+          Submit
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--Template for single product details-->
+  <div id="singleProductTmplt" style="display: none;"> 
+    <div class="card" style="width: 20rem;" class="singleProductCard">
+      <img class="card-img-top" src="{{image}}" alt="Card image cap">
+      <div class="card-body">
+          <h5 class="card-title">{{title}}</h5>
+          <p class="card-text">{{subDes}}</p>
+      </div>
+      <div class="cardFooter">
+          <a href="#" class="btn btn-primary">Add toCart</a>
+          <a href="#" class="btn btn-success" onclick="viewSlectedProductDetails('{{id}}')">View Details</a>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
+
+

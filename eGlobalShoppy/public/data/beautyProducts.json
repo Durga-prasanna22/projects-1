@@ -1,0 +1,176 @@
+[
+    {
+      "id": "p_1",
+      "name": "CeraVe Moisturizing Face Cream",
+      "title": "Hydrating Moisturizing Face Cream",
+      "price": 25.99,
+      "image": "images/beautyCare/beauty1_1.jpg",
+      "description": "A deeply hydrating face cream that offers long-lasting moisture and improves skin elasticity.",
+      "discount": "15%",
+      "category": "beautycare" , "rating": 4.8,
+      "images": [
+        "images/beautyCare/beauty1_1.jpg",
+        "images/beautyCare/beauty1_2.jpg",
+        "images/beautyCare/beauty1_3.jpg"
+      ],
+      "features": [
+        "Deep hydration",
+        "Improves skin elasticity",
+        "For all skin types",
+        "Clinically tested"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Emily Clark",
+          "category": "beautycare" , "rating": 5,
+          "comment": "Leaves my skin so soft and hydrated!"
+        },
+        {
+          "id": 2,
+          "name": "Sophia Brown",
+          "category": "beautycare" , "rating": 4,
+          "comment": "Great moisturizer, but a bit pricey."
+        }
+      ]
+    },
+    {
+      "id": "p_2",
+      "name": "Himalaya Herbal Shampoo",
+      "title": "Himalaya Herbal Shampoo",
+      "price": 18.99,
+      "image": "images/beautyCare/beauty2_1.jpg",
+      "description": "Organic herbal shampoo that cleanses and revitalizes hair with natural extracts.",
+      "discount": "10%",
+      "category": "beautycare" , "rating": 4.5,
+      "images": [
+        "images/beautyCare/beauty2_1.jpg",
+        "images/beautyCare/beauty2_2.jpg",
+        "images/beautyCare/beauty2_3.jpg"
+      ],
+      "features": [
+        "Organic ingredients",
+        "Revitalizes hair",
+        "Suitable for daily use",
+        "Sulfate-free"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Olivia Smith",
+          "category": "beautycare" , "rating": 5,
+          "comment": "My hair feels so clean and fresh!"
+        },
+        {
+          "id": 2,
+          "name": "Ava Davis",
+          "category": "beautycare" , "rating": 4,
+          "comment": "Nice scent and makes my hair shiny."
+        }
+      ]
+    },
+    {
+      "id": "p_3",
+      "name": "Burt's Bees Lip Balm",
+      "title": "Burt's Bees Lip Balm, Beeswax",
+      "price": 4.99,
+      "image": "images/beautyCare/beauty3_1.jpg",
+      "description": "Moisturizing lip balm made from natural ingredients to keep your lips soft and smooth.",
+      "discount": "5%",
+      "category": "beautycare" , "rating": 4.7,
+      "images": [
+        "images/beautyCare/beauty3_1.jpg",
+        "images/beautyCare/beauty3_2.jpg",
+        "images/beautyCare/beauty3_3.jpg"
+      ],
+      "features": [
+        "Natural ingredients",
+        "Long-lasting moisture",
+        "Suitable for sensitive skin",
+        "Available in various flavors"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Mia Johnson",
+          "category": "beautycare" , "rating": 5,
+          "comment": "Best lip balm I've ever used!"
+        },
+        {
+          "id": 2,
+          "name": "Chloe Wilson",
+          "category": "beautycare" , "rating": 4,
+          "comment": "Great product, but I wish it lasted longer."
+        }
+      ]
+    },
+    {
+        "id": "p_4",
+        "name": "MAC Studio Fix Foundation",
+        "title": "MAC Studio Fix Foundation",
+        "price": 12.99,
+        "image": "images/beautyCare/beauty4_1.jpg",
+        "description": "Long-wearing foundation that provides a flawless finish and all-day coverage.",
+        "discount": "20%",
+        "category": "beautycare" , "rating": 4.3,
+        "images": [
+          "images/beautyCare/beauty4_1.jpg",
+          "images/beautyCare/beauty4_2.jpg",
+          "images/beautyCare/beauty4_3.jpg"
+        ],
+        "features": [
+          "Long-wearing formula",
+          "Flawless finish",
+          "All-day coverage",
+          "Oil-free"
+        ],
+        "reviews": [
+          {
+            "id": 1,
+            "name": "Ella Brown",
+            "category": "beautycare" , "rating": 4,
+            "comment": "Great coverage and lasts all day!"
+          },
+          {
+            "id": 2,
+            "name": "Lily Clark",
+            "category": "beautycare" , "rating": 4,
+            "comment": "Good foundation, but the shade range could be improved."
+          }
+        ]
+    },{
+        "id": "p_5",
+        "name": "Maybelline Mascara",
+        "title": "Maybelline Lash Sensational Mascara",
+        "price": 8.99,
+        "image": "images/beautyCare/beauty5_1.jpg",
+        "description": "Volumizing mascara that adds length and fullness to your lashes for a dramatic look.",
+        "discount": "10%",
+        "category": "beautycare" , "rating": 4.6,
+        "images": [
+          "images/beautyCare/beauty5_1.jpg",
+          "images/beautyCare/beauty5_2.jpg",
+          "images/beautyCare/beauty5_3.jpg"
+        ],
+        "features": [
+          "Volumizing formula",
+          "Lengthening effect",
+          "Dramatic lashes",
+          "Waterproof"
+        ],
+        "reviews": [
+          {
+            "id": 1,
+            "name": "Aria Martinez",
+            "category": "beautycare" , "rating": 5,
+            "comment": "Love the volume and length it gives my lashes!"
+          },
+          {
+            "id": 2,
+            "name": "Eva Wilson",
+            "category": "beautycare" , "rating": 4,
+            "comment": "Good mascara, but can clump if not applied carefully."
+          }
+        ]
+    }
+  ]

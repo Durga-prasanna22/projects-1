@@ -1,0 +1,176 @@
+[
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S23 Ultra 5G AI Smartphone",
+      "title": "Samsung Galaxy S23 Ultra 5G AI Smartphone",
+      "category": "electronics", "price": 799.99,
+      "image": "images/electronics/electronics1_1.jpg",
+      "description": "Samsung Galaxy is a mobile phone with a 6.1-inch display, 8GB of RAM, 128GB of storage, and a 3400mAh battery.",
+      "discount": "20%",
+      "rating": 4.5,
+      "images": [
+        "images/electronics/electronics1_1.jpg",
+        "images/electronics/electronics1_2.jpg",
+        "images/electronics/electronics1_3.jpg"
+      ],
+      "features": [
+        "6.1-inch display",
+        "8GB of RAM",
+        "128GB of storage",
+        "3400mAh battery"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "rating": 4,
+          "comment": "Great phone!"
+        },
+        {
+          "id": 2,
+          "name": "Jane Doe",
+          "rating": 5,
+          "comment": "Excellent phone!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "iPhone 16 Pro 256 GB",
+      "title": "iPhone 16 Pro 256 GB",
+      "category": "electronics", "price": 999.99,
+      "image": "images/electronics/electronics2_1.jpg",
+      "description": "The latest Apple iPhone features a 6.5-inch display, 6GB of RAM, 256GB of storage, and an improved 4000mAh battery.",
+      "discount": "15%",
+      "rating": 4.7,
+      "images": [
+        "images/electronics/electronics2_1.jpg",
+        "images/electronics/electronics2_2.jpg",
+        "images/electronics/electronics2_3.jpg"
+      ],
+      "features": [
+        "6.5-inch display",
+        "6GB of RAM",
+        "256GB of storage",
+        "4000mAh battery"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Alice Johnson",
+          "rating": 5,
+          "comment": "Absolutely love it!"
+        },
+        {
+          "id": 2,
+          "name": "Bob Brown",
+          "rating": 4,
+          "comment": "Good phone but quite expensive."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Srhythm NC25 Wireless Headphones Bluetooth",
+      "title": "Srhythm NC25 Wireless Headphones Bluetooth",
+      "category": "electronics", "price": 349.99,
+      "image": "images/electronics/electronics3_1.jpg",
+      "description": "Srhythm NC25 Wireless Headphones Bluetooth with 30 hours of battery life, and Bluetooth 5.0.",
+      "discount": "10%",
+      "rating": 4.6,
+      "images": [
+        "images/electronics/electronics3_1.jpg",
+        "images/electronics/electronics3_2.jpg",
+        "images/electronics/electronics3_3.jpg"
+      ],
+      "features": [
+        "Wireless noise-canceling",
+        "30 hours of battery life",
+        "Bluetooth 5.0"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Charles Davis",
+          "rating": 5,
+          "comment": "Best noise cancellation!"
+        },
+        {
+          "id": 2,
+          "name": "Emily Evans",
+          "rating": 4,
+          "comment": "Good sound quality, but pricey."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Lenovo ThinkPad E14 Intel Core i5 13th Gen 14",
+      "title": "Lenovo ThinkPad E14 Intel Core i5 13th Gen 14",
+      "category": "electronics", "price": 699.99,
+      "image": "images/electronics/electronics4_1.jpg",
+      "description": "Lenovo ThinkPad E14 with Intel Core i5 13th Gen processor, 14-inch display, 8GB of RAM, and 256GB SSD.",
+      "discount": "10%",
+      "rating": 4.4,
+      "images": [
+        "images/electronics/electronics4_1.jpg",
+        "images/electronics/electronics4_2.jpg",
+        "images/electronics/electronics4_3.jpg"
+      ],
+      "features": [
+        "Intel Core i5 13th Gen processor",
+        "14-inch display",
+        "8GB of RAM",
+        "256GB SSD"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Ella Wilson",
+          "rating": 4,
+          "comment": "Great laptop for work!"
+        },
+        {
+          "id": 2,
+          "name": "Finn Brown",
+          "rating": 5,
+          "comment": "Fast and reliable laptop."
+        }
+      ]
+      
+    },{
+      "id": 5,
+      "name": "Samsung 49-Inch QLED 4K UHD TV",
+      "title": "Samsung 49-Inch QLED 4K UHD TV",
+      "category": "electronics", "price": 799.99,
+      "image": "images/electronics/electronics5_1.jpg",
+      "description": "Samsung 49-Inch QLED 4K UHD TV with Quantum Dot technology, 120Hz refresh rate, and smart TV features.",
+      "discount": "15%",
+      "rating": 4.8,
+      "images": [
+        "images/electronics/electronics5_1.jpg",
+        "images/electronics/electronics5_2.jpg",
+        "images/electronics/electronics5_3.jpg"
+      ],
+      "features": [
+        "QLED 4K UHD TV",
+        "Quantum Dot technology",
+        "120Hz refresh rate",
+        "Smart TV features"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Oliver Brown",
+          "rating": 5,
+          "comment": "Amazing picture quality!"
+        },
+        {
+          "id": 2,
+          "name": "Sophia Lee",
+          "rating": 4,
+          "comment": "Great TV, but the sound could be better."
+        }
+      ]
+    }
+  ]

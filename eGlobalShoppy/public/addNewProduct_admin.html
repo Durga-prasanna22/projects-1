@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="lib/jquery.js"></script>
+        <script src="lib/handlebars.min.js"></script>
+        <!-- <link rel="stylesheet" href="./css/header.css" /> -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/axios.js"></script>
+        <script src="lib/handlebar.js"></script>
+        <link rel="stylesheet" href="css/adminpage.css">
+        <script src="javascript/addnewProductDetails.js"></script>
+    </head>
+    <body>
+        <h3>
+            Add new product details
+        </h3>
+        <div class="container" style="width: 800px;margin: 20px auto;">
+            <ul >
+                <li class="row">
+                    <div class="col-md-3">Product Id</div>
+                    <div class="col-md-8"><input type="text" id="s_id"></div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Product Name</div>
+                    <div class="col-md-8"><input type="text" id="s_name"></div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Product Title</div>
+                    <div class="col-md-8"><input type="text" id="s_title"></div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Price</div>
+                    <div class="col-md-8"><input type="number" id="s_price"></div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Product Features</div>
+                    <div class="col-md-8"><input type="text" id="s_features"></div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Image</div>
+                    <div class="col-md-8">
+                        <form method ="POST" enctype="multipart/form-data">
+                            <input type="file" name="prodImage">
+                            <input type="button" class="btn btn-primary" value="Upload Image" onclick="uploadProductImage()">
+                        </form>
+                    </div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Description</div>
+                    <div class="col-md-8">
+                        <textarea name="" id="s_prodDesc"></textarea>
+                    </div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Discount</div>
+                    <div class="col-md-8"><input type="number" id="s_discount"></div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Category</div>
+                    <div class="col-md-8">
+                        <select name="" id="s_category">
+                            <option value="beautycare">Beautycare</option>
+                            <option value="sports">Sports</option>
+                            <option value="women_clothing">Womens clothing</option>
+                            <option value="mens_clothing">Mens clothing</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="books">Books</option>
+                            <option value="kids">Kids</option>
+                            <option value="toys">Toys</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="row">
+                    <div class="col-md-3">Rating</div>
+                    <div class="col-md-8"><input type="text" id="s_rating"></div>
+                </li>
+                <li>
+                    <button class="btn btn-primary" onclick="addNewProductDetails()">Add Product Details</button>
+                </li>
+            </ul>
+            <div class="msgBlock"></div>
+        </div>
+    </body>
+</html>

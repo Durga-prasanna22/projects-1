@@ -1,0 +1,176 @@
+Looping 
+    for 
+    while 
+    do while 
+    for in 
+    for each 
+    for of -> iterate set and map 
+
+Set - similar to Arrays
+    var s1 = new Set();
+
+
+Map  is similar to Object
+
+    var m1 = new Map();
+
+    -------------------
+
+importing and exporting js code 
+
+    Import external js code/file to another js code 
+
+    import 
+
+1. any js code, which is using import keyworkd has to be loaded as a module not as type jscode .
+
+2. import should be at the top of the code, we cannot import in middle of js code 
+
+------------
+
+Steps:
+
+    1. inorder to import an external js file to another js file, it has to be a module. 
+        <script type="module" src="app.js"> 
+
+    2. "export" is the predefined keyword using which any js resource (varaible, obj, func etc) can be exported which can be imported in other js File
+
+            export var a = 90;
+            export class ABC {
+
+            }
+            export sample = () => {
+                
+            }
+    3. export default can only be used once within the module, 
+
+            export default name = "raj";
+
+            import name from ...js 
+
+------------------------------
+
+JS Promises:
+
+
+    "Promise"
+
+    var mypromise = new Promise((resolve, rejected) =>{
+        ...
+        resolve();
+
+        rejected();
+    });
+
+---------------------------------------
+
+Jan 02
+
+    DB -> Store the data in organized format (tables/collections)
+        Oracle, Sql, Sql  server, Mongodb etc...
+
+    Mongo Db:
+        1. Stores the data in the form of BSON (json)
+
+
+
+RDBMS - SQL database 
+
+    First step - schema 
+        create table tbl_student_details (sno Integer, name var char (30), ... )
+
+    Student details - tbl_student_details
+
+        Sno         name        Age         Gender      Passport no panno 
+
+        1           Raj         20            Male       Ab2345     abc 
+        2           Krish       10            Male       Ta345T     null 
+        3.          Teena       10            Female     null       null 
+
+
+    address:
+    
+    select * from abc 
+    select sname, age, gender from studdetails
+
+
+
+-----------------
+Mongodb - No Sql DB 
+    1. We dnt interact with collects through query, but through commands 
+
+in a table every row should have same structure / schema 
+        100
+    2. DAta gets stored in Collections not in tables 
+
+        Collection is collection od documents 
+
+-----------------------
+Adv of Json:
+
+    var studetnDtails = {
+        details: [
+            {name: 'raj', age: 20, gender: 'male', address: {dno: 123, loc: 'hyd'}}
+            {name: 'raj', age: 20, gender: 'male', passportno: 123}
+            {name: 'raj', age: 20, gender: 'male', panno: 123},
+            {name: 'Krish', age: 20, gender: 'male'}
+        ]
+    }
+
+
+--------------------------
+Table -> tbl_student_details 
+
+    select sname, sage from tbl_student_details -> SQL query 
+
+collection -> studentdetails 
+
+    collection.find({sname, sage});
+
+
+---------------
+
+SQL db - 
+
+    Primary key to add the unique ness 
+
+        creae tables studentdetail (sid var char  Primarykey)
+
+No sql - mongo 
+    Every document within a collection, should have  a key '_ID', with unique value
+    If the user missed to create _ID field, it autmatically add the field with unique value to it 
+
+-----------------------------------------
+Jan - 03
+
+    sql 
+     select * from tbl_bookdetails -> db.collname.find({})
+
+     select * from tbl_bookdetails where category='sample' -> db.collname.find({category: 'sample'})
+-----------------------
+
+Jan - 04
+
+Encryption and Decription
+    Singapore
+
+    S12i34n56g78a90p11o11r22e
+
+    Singapore
+
+-----------------------------
+
+Jan 18
+
+    Uploading resources/images/files to server:
+
+        node module: multer  single/multiple files at a time to node server 
+
+
+        Client: 
+            files to server only by formdata
+
+            FormData 
+
+        Server: 
+        

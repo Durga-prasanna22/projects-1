@@ -1,0 +1,177 @@
+ [
+    {
+      "id": 1,
+      "name": "Floral Summer Dress",
+      "title": "Floral Summer Dress",
+      "category": "women_clothing", "price": 59.99,
+      "image": "images/women/women1_1.jpg",
+      "description": "This stunning floral summer dress is perfect for warm weather and features a lightweight, breathable fabric.",
+      "discount": "25%",
+      "rating": 4.8,
+      "images": [
+        "images/women/women1_1.jpg",
+        "images/women/women1_2.jpg",
+        "images/women/women1_3.jpg"
+      ],
+      "features": [
+        "Lightweight fabric",
+        "Floral design",
+        "Ankle length",
+        "Machine washable"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Samantha Green",
+          "rating": 5,
+          "comment": "Absolutely love this dress! Perfect for summer."
+        },
+        {
+          "id": 2,
+          "name": "Laura White",
+          "rating": 4,
+          "comment": "Beautiful design but a bit too long for me."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Women's Organza Lightweight Lace Work Saree ",
+      "title": "Women's Organza Lightweight Lace Work Saree ",
+      "category": "women_clothing", "price": 29.99,
+      "image": "images/women/women2_1.jpg",
+      "description": "Elegant lace blouse with a delicate design, suitable for both casual and formal occasions.",
+      "discount": "15%",
+      "rating": 4.5,
+      "images": [
+        "images/women/women2_1.jpg",
+        "images/women/women2_2.jpg",
+        "images/women/women2_3.jpg"
+      ],
+      "features": [
+        "Delicate lace design",
+        "Available in white and black",
+        "Short sleeves",
+        "True to size"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Olivia Winters",
+          "rating": 4,
+          "comment": "Great quality and fits well!"
+        },
+        {
+          "id": 2,
+          "name": "Emma Taylor",
+          "rating": 5,
+          "comment": "Lovely blouse, received many compliments."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "High-Waisted Jeans",
+      "title": "High-Waisted Jeans",
+      "category": "women_clothing", "price": 39.99,
+      "image": "images/women/women3_1.jpg",
+      "description": "These high-waisted jeans provide a flattering fit and are crafted from a stretch denim fabric for comfort.",
+      "discount": "20%",
+      "rating": 4.2,
+      "images": [
+        "images/women/women3_1.jpg",
+        "images/women/women3_2.jpg",
+        "images/women/women3_3.jpg"
+      ],
+      "features": [
+        "Stretch denim",
+        "High-waist fit",
+        "Skinny leg",
+        "Faded wash"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Isabella Chen",
+          "rating": 4,
+          "comment": "Love the fit and comfort. My new favorite jeans!"
+        },
+        {
+          "id": 2,
+          "name": "Sophia Brown",
+          "rating": 3,
+          "comment": "Good jeans but runs slightly small."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Women Floral Print Anarkali Kurta",
+      "title": "Women Floral Print Anarkali Kurta",
+      "category": "women_clothing", "price": 49.99,
+      "image": "images/women/women4_1.jpg",
+      "description": "This beautiful floral print kurta features an anarkali style with long sleeves, perfect for a traditional look.",
+      "discount": "10%",
+      "rating": 4.6,
+      "images": [
+        "images/women/women4_1.jpg",
+        "images/women/women4_2.jpg",
+        "images/women/women4_3.jpg"
+      ],
+      "features": [
+        "Floral print",
+        "Anarkali style",
+        "Long sleeves",
+        "Available in multiple sizes"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Sophia Johnson",
+          "rating": 5,
+          "comment": "Beautiful kurta, fits perfectly!"
+        },
+        {
+          "id": 2,
+          "name": "Liam Brown",
+          "rating": 4,
+          "comment": "Nice design and good quality fabric."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Women's Fancy Banarasi Kanjivaram Art Silk Saree",
+      "title": "Women's Fancy Banarasi Kanjivaram Art Silk Saree",
+      "category": "women_clothing", "price": 59.99,
+      "image": "images/women/women5_1.jpg",
+      "description": "This elegant Banarasi Kanjivaram saree features intricate zari work and a traditional design, perfect for special occasions.",
+      "discount": "20%",
+      "rating": 4.7,
+      "images": [
+        "images/women/women5_1.jpg",
+        "images/women/women5_2.jpg",
+        "images/women/women5_3.jpg"
+      ],
+      "features": [
+        "Art silk fabric",
+        "Zari work",
+        "Traditional design",
+        "Available in multiple colors"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Sophia Lee",
+          "rating": 5,
+          "comment": "Absolutely stunning saree, received many compliments!"
+        },
+        {
+          "id": 2,
+          "name": "Liam Green",
+          "rating": 4,
+          "comment": "Beautiful design and good quality fabric."
+        }
+      ]
+    }
+  ]

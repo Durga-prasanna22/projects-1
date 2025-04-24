@@ -1,0 +1,71 @@
+/*Login Dialog box CSS */
+#loginModal {
+    width: 100% !important;
+    
+}
+.modal-content {
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px gray; 
+    max-width: 410px !important;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661331741155-abe18eae3b5d?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.modal-header {
+    justify-content: center ;
+    display: grid;
+    grid-template-columns: 90% 5%;
+}
+.modelTitle {
+    padding: 5px;
+    text-align: center;
+}
+#modalBoxCloseBtn {
+    margin-left: 0px;
+    
+}
+#modalBoxCloseButton{
+    display: flex;
+    
+}
+#dialogBoxUl {
+    padding-left: 5px;
+    list-style-type: none;
+}
+#dialogBoxUl li {
+    padding: 5px;
+    margin: 7px 0px;
+}
+#dialogBoxAnchor {
+    text-decoration: none;
+    font-weight: bold;
+}
+.dialogBoxSignUp {
+    text-decoration: none;
+}
+.modal-footer {
+    justify-content: space-between !important;
+}
+.signUpLoginP {
+    margin-bottom: 0px;
+}
+
+/* captcha CSS */
+
+.preview {
+    background: linear-gradient(to bottom ,#dfefff, #ffffff);
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    
+    float: left;
+    text-align: center;
+    padding: 5px;
+    height: 35px !important;
+    width: 100%;
+    
+}
+
+.captcha-container {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+  }

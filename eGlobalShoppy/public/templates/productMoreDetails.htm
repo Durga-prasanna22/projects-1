@@ -1,0 +1,112 @@
+<div class="container product-display-container">
+  <div class="row" id="productDisplayContainer"></div>
+</div>
+
+<div class="col-md-4" id="productDisplayTemplate" style="display: none">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="row">
+        <div class="main-image">
+          <img src="{{image}}" alt="Main Product Image" />
+        </div>
+      </div>
+      <div class="row">
+          <div class="small-images" onclick="smallImagesClickHandler()">
+            {{#each images}}
+            <img
+              src="{{this}}"
+              alt="product image"
+              class="small-image"
+            />
+            {{/each}}
+          
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <h2>{{title}}</h2>
+        <div class="rating">
+          {{renderStars rating}}
+          <span class="rating-text">({{rating}})</span>
+        </div>
+        <div class="price">
+          ${{newPrice}}<span class="original-price">${{price}}</span>
+          <span class="offer-badge">{{discount}}%</span>
+
+          
+        </div>
+        <div class="product-description">
+            <p class="text-bold">About this item</p>
+          <p>{{description}}</p>
+        </div>
+        <div class="product-features">
+            <p class="text-bold">Features</p>
+            <ul>
+                {{#each features}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="delivery-info">
+          <p>
+            FREE scheduled delivery as soon as Saturday, 11 January, 7 am - 9
+            pm.
+          </p>
+          <p>Delivering to Mumbai 400001 - Update location</p>
+        </div>
+
+        <p class="stock">In stock</p>
+
+        <hr />
+
+        <div class="quantity">
+          <label for="quantitySelect">Quantity:</label>
+          <select class="form-control" id="quantitySelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <hr />
+        <div class="add-to-cart">
+          <button class="btn btn-primary" onclick="addToCartClickHandler()">
+            Add to Cart
+          </button>
+          </div>
+      </div>
+    
+      <div class="reviews">
+        <hr />
+        <h3>Customer Reviews</h3>
+        {{#each reviews}}
+          <div class="review">
+            <div class="review-header">
+            <i class="fas fa-user"></i>
+              <span class="review-name">{{this.name}}</span>
+              <div class="review-rating rating">
+                  {{renderStars rating}}
+                  <span class="rating-text">({{rating}})</span>
+      
+              </div>
+            </div>
+            <p class="review-comment">{{this.comment}}</p>
+          </div>
+        {{/each}}
+      </div>
+      <div class="addReviewBlock">
+          <div class="rating" id="userRatingStars">
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div>
+            <textarea name="" id="userFeedback" maxlength="50"></textarea>
+            <input type="button" value="Add Review" onclick="addUserFeedback()">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

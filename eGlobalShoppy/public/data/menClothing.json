@@ -1,0 +1,108 @@
+ [
+      {
+        "id": 1,
+        "name": "Classic Fit Denim Jeans",
+        "title": "Classic Fit Denim Jeans",
+        "category": "men_clothing", "price": 49.99,
+        "image": "images/men/men1_1.jpg",
+        "description": "These classic fit denim jeans are made from durable cotton and offer a comfortable fit with a timeless style.",
+        "discount": "10%",
+        "rating": 4.3,
+        "images": [
+          "images/men/men1_1.jpg",
+          "images/men/men1_2.jpg",
+          "images/men/men1_3.jpg"          
+        ],
+        "features": [
+          "Durable cotton material",
+          "Classic fit",
+          "Available in multiple sizes",
+          "Machine washable"
+        ],
+        "reviews": [
+          {
+            "id": 1,
+            "name": "Michael Smith",
+            "rating": 4,
+            "comment": "Good quality jeans at a reasonable price."
+          },
+          {
+            "id": 2,
+            "name": "Jason Taylor",
+            "rating": 5,
+            "comment": "Perfect fit and very comfortable to wear."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Casual Cotton T-Shirt",
+        "title": "Casual Cotton T-Shirt",
+        "category": "men_clothing", "price": 19.99,
+        "image": "images/men/men2_1.jpg",
+        "description": "This casual cotton t-shirt offers softness and breathability, perfect for everyday wear.",
+        "discount": "15%",
+        "rating": 4.5,
+        "images": [
+          "images/men/men2_1.jpg",
+          "images/men/men2_2.jpg",
+          "images/men/men2_3.jpg"
+        ],
+        "features": [
+          "Soft and breathable fabric",
+          "Variety of colors",
+          "Short sleeves",
+          "Regular fit"
+        ],
+        "reviews": [
+          {
+            "id": 1,
+            "name": "Robert Brown",
+            "rating": 5,
+            "comment": "Comfortable shirt with a great fit."
+          },
+          {
+            "id": 2,
+            "name": "Kevin Lee",
+            "rating": 4,
+            "comment": "Good quality, could have more color options."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Formal Cotton Shirt",
+        "title": "Formal Cotton Shirt",
+        "category": "men_clothing", "price": 35.99,
+        "image": "images/men/men3_1.jpg",
+        "description": "This formal cotton shirt features a crisp collar and button-down design, ideal for professional settings.",
+        "discount": "20%",
+        "rating": 4.6,
+        "images": [
+          "images/men/men3_1.jpg",
+          "images/men/men3_2.jpg",
+          "images/men/men3_3.jpg"
+        ],
+        "features": [
+          "Crisp collar",
+          "Button-down design",
+          "Formal style",
+          "Multiple color options"
+        ],
+        "reviews": [
+          {
+            "id": 1,
+            "name": "William Wilson",
+            "rating": 5,
+            "comment": "Excellent shirt for office wear."
+          },
+          {
+            "id": 2,
+            "name": "James Lee",
+            "rating": 4,
+            "comment": "Fits well, fabric quality is impressive."
+          }
+        ]
+      }
+    ]
+  

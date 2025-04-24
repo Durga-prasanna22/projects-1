@@ -1,0 +1,41 @@
+1. Header part - imitating Amazon including logo -> Gopi - Done
+
+2. Footer Changes - look and feel - Venkatesh -> Done
+
+3. Carosel Home page - bootstrap - Prasad - Done
+
+4. Cards Homepage - Harsh - Done
+
+5. Dialog box UI Changes: Prakash - Done
+---------------------------------------------------------------
+
+1. Shhow forgot password popup  -> Prakash - Done
+
+2. Show newe signup popup -> Prakash - Done
+
+3. Show/hide password eye icon - Srija - In progress
+
+4. Remember my credentials - Rishi - Done
+
+5. Captcha(along with refresh) - Login button should be disabled until we give valid capthca - Venkatesh - done
+
+
+
+
+sports
+education 
+electronics
+books 
+mens clothing
+womensclothing
+
+
+------------------------------------------------------------------------
+
+Jan -7(back-up update)
+
+6.Remember my credentials - GOpi - Done
+
+7. Captcha(along with refresh) - Gopi - done
+
+-------------------------------------------------------------------------

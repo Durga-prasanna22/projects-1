@@ -1,0 +1,177 @@
+[
+    {
+      "id": 1,
+      "name": "Soccer Ball",
+      "title": "Professional Soccer Ball",
+      "category": "sports", "price": 29.99,
+      "image": "images/sports/sports1_1.jpg",
+      "description": "A high-quality soccer ball suitable for all weather conditions, perfect for training and matches.",
+      "discount": "15%",
+      "rating": 4.7,
+      "images": [
+        "images/sports/sports1_1.jpg",
+        "images/sports/sports1_2.jpg",
+        "images/sports/sports1_3.jpg"
+      ],
+      "features": [
+        "Durable outer cover",
+        "Size 5 official match ball",
+        "Water-resistant",
+        "Air retention bladder"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Liam Johnson",
+          "rating": 5,
+          "comment": "Great ball, lasts long and perfect for games."
+        },
+        {
+          "id": 2,
+          "name": "Mason Brown",
+          "rating": 4,
+          "comment": "Good quality but slightly overpriced."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tennis Racket",
+      "title": "Lightweight Tennis Racket",
+      "category": "sports", "price": 79.99,
+      "image": "images/sports/sports2_1.jpg",
+      "description": "A lightweight tennis racket with a durable frame, designed for both beginners and intermediate players.",
+      "discount": "20%",
+      "rating": 4.5,
+      "images": [
+        "images/sports/sports2_1.jpg",
+        "images/sports/sports2_2.jpg",
+        "images/sports/sports2_3.jpg"
+      ],
+      "features": [
+        "Lightweight graphite frame",
+        "Comfortable grip handle",
+        "Good string tension",
+        "Suitable for all court surfaces"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Sophia Lee",
+          "rating": 5,
+          "comment": "Perfect racket for learning and casual play."
+        },
+        {
+          "id": 2,
+          "name": "Noah Green",
+          "rating": 4,
+          "comment": "Decent racket but the grip could be improved."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Yoga Mat",
+      "title": "Non-Slip Yoga Mat",
+      "category": "sports", "price": 24.99,
+      "image": "images/sports/sports3_1.jpg",
+      "description": "Eco-friendly, non-slip yoga mat, providing superior comfort and support for yoga sessions.",
+      "discount": "10%",
+      "rating": 4.6,
+      "images": [
+        "images/sports/sports3_1.jpg",
+        "images/sports/sports3_2.jpg",
+        "images/sports/sports3_3.jpg"
+      ],
+      "features": [
+        "Non-slip surface",
+        "Eco-friendly material",
+        "Cushioned support",
+        "Available in multiple colors"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Ava White",
+          "rating": 5,
+          "comment": "Very comfortable and easy to clean."
+        },
+        {
+          "id": 2,
+          "name": "Ethan Davis",
+          "rating": 4,
+          "comment": "Good mat, but wish it was a bit thicker."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Basketball",
+      "title": "Indoor/Outdoor Basketball",
+      "category": "sports", "price": 39.99,
+      "image": "images/sports/sports4_1.jpg",
+      "description": "An all-surface basketball designed for indoor and outdoor play, with a durable rubber cover.",
+      "discount": "15%",
+      "rating": 4.8,
+      "images": [
+        "images/sports/sports4_1.jpg",
+        "images/sports/sports4_2.jpg",
+        "images/sports/sports4_3.jpg"
+      ],
+      "features": [
+        "Durable rubber cover",
+        "Official size and weight",
+        "Suitable for all surfaces",
+        "Enhanced grip"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Olivia Wilson",
+          "rating": 5,
+          "comment": "Great basketball, perfect for indoor games."
+        },
+        {
+          "id": 2,
+          "name": "James Miller",
+          "rating": 4,
+          "comment": "Good grip and bounce, but slightly heavy."
+        }
+      ]
+    },
+    {
+        "id": 5,
+        "name": "Boxing Gloves",
+        "title": "Professional Boxing Gloves",
+        "category": "sports", "price": 49.99,
+        "image": "images/sports/sports5_1.jpg",
+        "description": "High-quality boxing gloves with durable padding and wrist support, suitable for training and sparring.",
+        "discount": "10%",
+        "rating": 4.5,
+        "images": [
+          "images/sports/sports5_1.jpg",
+          "images/sports/sports5_2.jpg",
+          "images/sports/sports5_3.jpg"
+        ],
+        "features": [
+          "Durable synthetic leather",
+          "Multi-layer foam padding",
+          "Secure wrist strap",
+          "Available in multiple sizes"
+        ],
+        "reviews": [
+          {
+            "id": 1,
+            "name": "Mia Brown",
+            "rating": 4,
+            "comment": "Good quality gloves, comfortable to wear."
+          },
+          {
+            "id": 2,
+          "name": "Ella Wilson",
+          "rating": 5,
+          "comment": "Excellent gloves for sparring, highly recommend."
+        }
+        ]
+    }
+  ]
