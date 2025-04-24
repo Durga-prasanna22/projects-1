@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Todo App</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" id="task" class="form-control" placeholder="Add a new task">
+            </div>
+            <div class="col-md-2">
+                <input type="datetime-local" id="datetime" class="form-control">
+            </div>
+            <div class="col-md-2">
+                <select id="priority" class="form-control">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <button id="add" class="btn btn-primary btn-block">Add Task</button>
+            </div>
+        </div>
+        <ul id="task-list" class="list-group my-4"></ul>
+    </div>
+    <div class="notification" id="notification"></div>
+
+    <audio id="notificationSound" src="./mp3.wav"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
